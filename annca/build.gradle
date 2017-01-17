@@ -20,14 +20,14 @@ ext {
     PUBLISH_ARTIFACT_ID = 'annca'
     PUBLISH_VERSION = '0.3.3'
     PUBLISH_VERSION_CODE = 7
-    SUPPORT_VERSION = '25.1.0'
-    TARGET_SDK = 24
+    SUPPORT_VERSION = '23.4.0'
+    TARGET_SDK = 22
     MIN_SDK = 10
-    BUILD_TOOLS = "24.0.3"
+    BUILD_TOOLS = "23.0.1"
 }
 
 android {
-    compileSdkVersion TARGET_SDK
+    compileSdkVersion 23
     buildToolsVersion BUILD_TOOLS
 
     defaultConfig {
